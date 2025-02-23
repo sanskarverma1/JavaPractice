@@ -1,3 +1,5 @@
+package com.skv.corejava;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -22,7 +24,7 @@ class Student{
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "com.skv.corejava.Student{" +
                 "name='" + name + '\'' +
                 ", gpa=" + gpa +
                 '}';
@@ -51,7 +53,7 @@ public class Comparatorexample {
         System.out.println(students);
 
         /*
-        after java8 method referencing(Student::getGpa) was introduced so we dont have to write our own
+        after java8 method referencing(com.skv.corejava.Student::getGpa) was introduced so we dont have to write our own
         comparator from scratch
         */
         Comparator<Student> comparator = Comparator.comparing(Student::getGpa).reversed().thenComparing(Student::getName);
