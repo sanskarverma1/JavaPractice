@@ -39,7 +39,7 @@
 
 ### ArrayList
 
-[ArrayList Example](src/ArrayList.java)
+[ArrayList Example](src/com/skv/corejava/ArrayList.java)
 
 This file demonstrates different ways to work with ArrayLists and Lists in Java. It shows basic ArrayList operations (add, set, remove) and covers different types of List initialization:
 
@@ -94,7 +94,7 @@ The examples demonstrate adding elements at specific indices, replacing elements
 
 ### LinkedList
 
-[LinkedList Example](src/LinkedListExample.java)
+[LinkedList Example](src/com/skv/corejava/LinkedListExample.java)
 
 #### Internal Working
 - Doubly-linked list implementation 
@@ -150,7 +150,7 @@ The examples demonstrate adding elements at specific indices, replacing elements
 
 ### Comparator
 
-[Comparator Example](src/ComparatorExample.java)
+[Comparator Example](src/com/skv/corejava/ComparatorExample.java)
 
 This file showcases different ways to sort objects using Comparators in Java. It includes a custom Student class with name and GPA fields to demonstrate object sorting. The implementation shows multiple approaches:
 
